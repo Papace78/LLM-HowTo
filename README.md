@@ -11,6 +11,7 @@ This repository is a how-to guide for building applications with large language 
 It documents key concepts and practical patterns, including:
 
 - Embedding and indexing documents for semantic search (RAG)
-- Orchestrating AI agents that interact with tools and APIs
+- Building your own Python function and binding them a LLM (tool calling)
+- Creating AI agent
 
 ---
