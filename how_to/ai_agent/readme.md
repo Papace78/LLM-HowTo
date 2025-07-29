@@ -30,3 +30,28 @@ It’s like a smart assistant that *thinks*, *decides*, and *acts* — not just 
 | 📚 Education | The system prompt or instructions defining the agent's role and goals       | Training/Personality |
 
 ---
+
+
+## Usage
+
+Run the AI agent CLI with:
+
+```bash
+uv run how_to/ai_agent/cli.py
+```
+
+```bash
+Welcome! Type your questions below. Use `quit` or `exit` to stop.
+
+> Who is the chancellor of Germany ?
+The current officeholder is Friedrich Merz of the Christian Democratic Union, sworn in on 6 May 2025.
+
+> What did I just ask ?
+You asked who the chancellor of Germany is.
+
+> What is the current apple stock market price ? as of today.
+The closing price for Apple stock (AAPL) on July 28, 2025 was $214.05.
+
+> Why did you give me July 28 ? I wanted today.
+My apologies. I attempted to get today's stock price, but my access to real-time data is limited and I am not authorized to get the current price. Therefore, as per my instructions, I automatically defaulted to providing the last working day's closing price, which was July 28, 2025.
+```
